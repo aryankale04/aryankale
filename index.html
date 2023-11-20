@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aryan - Developer  Portfolio</title>   
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="css/style.css">
+
+    <body>
+        <header class="header">
+            <a href="#home" class="logo" >Portfolio</a>
+            <i class='bx bx-menu' id='menu-icon'></i>
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#sercices">Skills</a>
+               <a href="#contact">Contact</a>
+            </nav>
+        
+   
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("CS8dOplEYV0XBvIAw");
+      })();
+    </script>
+
+        </header>
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello, It's me</h3>
+                <h1>Aryan Kale</h1>
+                <h3>And I'm a <span> AWS DevOps </span></h3>
+                <p>Turn Your Dreams Into Reality </p>
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/aryan-kale-aa3768233"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="https://x.com/aryankale0?t=qBR887Cd7ajhYTjqnNQ9dA&s=09"><i class='bx bxl-twitter' ></i></a>
+                    <a href="https://instagram.com/aryan_kale_._?igshid=YTQwZjQ0NmI0OA=="><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://discord.com/invite/ysHDhJAX"><i class='bx bxl-discord' ></i></a>
+                </div>
+            </div>
+            <div class="home-img">
+                <img src=" sad.png" alt=" " height="520px" width="650px">
+            </div>
+        </section>
+
+                <!-- About section design -->
+
+        <section class="about" id="about">
+            <div class="about-img">
+                  <img src=" sad.png" alt=" " height="520px" width="650px">
+            </div>
+
+            <div class="about-content">
+                <h3 class="heading">About <span>Me</span></h3>
+                <h3> <span> AWS</span> DevOps </h3>
+                <p>Hello, my name is Aryan. I am a passionate, well-trained java and web developer. I am an active learner, always ready to upskill myself which has helped me in building myself. Skilled in AWS Devops Engineer. Excellent teamwork, interpersonal and communication skills are the key points you can expect. Looking to start a career as 
+                    an entry-level professional with a reputed IT company. I am eager to bring my enthusiasm and dedication to any project or team part of. And i am social media person and i have a skill in video editing also. Thank You... </p>
+            </div>
+
+        </section>
+
+        <!-- services section design -->
+
+        <section class="sercices" id="sercices">
+            <h2 class="headling ">Our <span>Skills</span></h2><br><br><br>
+            <div class="services-container">
+                <div class="services-box">
+                    <i class='bx bxs-paint'></i>
+                    <h3> Video Editor</h3><br>
+                    <p>A dynamic and passionate Video Editor with a knack for transforming raw footage into mesmerizing cinematic experiences. And Edited more than 400 videos including long and short form. Software use Premiere Pro, After Effects</p><br>
+                </div>
+
+                <div class="services-box">
+                    <i class='bx bx-code-alt'></i>
+                    <h3> AWS DevOps</h3><br>
+                    <p>Motivated and passionate DevOps engineer. Deploying AWS services and AWS release management and focusing on AWS, using EC2, Lambda,Code Build, and Pipline</p><br>
+                </div>
+                <div class="services-box">
+                    <i class='bx bx-bar-chart-alt'></i>
+                    <h3>Web Developer </h3><br>
+                    <p>The best services I offer: Website Design, E-commerce Development, num Search Engine Optimization, Speed Optimization, and Website Maintenance.
+I'm skilled in WordPress, Search Engine Optimization (SEO), WooCommerce, PHP, JavaScript, MySQL, HTML, CSS, Bootstrap, and Tailwind CSS.</p><br>
+                </div>
+            </div>
+        </section>
+
+       
+         <!--contact section design-->
+        <section class="contact" id="contact">
+            <h2 class="headling">Contact <span>Me!</span></h2>
+            <form onclick="sendMail()">
+                 <div class="input-box">
+                    <input type="text" id="name" placeholder="Full Name">
+                    <input type="email" id="email" placeholder="Email Address">
+                </div>
+                <div class="input-box">
+                    <input type="number" id="number" placeholder="Mobile Number">
+                    <input type="text" id= "text"  placeholder="Email Subject">
+                </div>
+                <textarea name="" id="message" cols="30" rows="10"   placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message"  class="btn">
+            </form>
+        </section>
+    </body>
+        <script src="js/index.js"></script>
+</html>
